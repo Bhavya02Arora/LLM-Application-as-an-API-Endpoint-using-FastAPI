@@ -87,3 +87,6 @@ Wrap that logic in a REST API using FastAPI
 Provide a clean interface for others to consume your model via the web
 
 This architecture makes it easier for others (developers, products, services) to interact with your LLM applications in a scalable and accessible way.
+
+Reference of the Porject:
+https://www.datacamp.com/tutorial/serving-an-llm-application-as-an-api-endpoint-using-fastapi-in-python
