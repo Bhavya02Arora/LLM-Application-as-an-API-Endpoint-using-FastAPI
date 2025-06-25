@@ -40,8 +40,9 @@ def translate_text(input_str):
         ],
     )
     return completion.choices[0].message.content
+```
 
-🔧 Environment Setup
+🔧 Environment Setup:
 Clone the repo and navigate to the project directory.
 
 Install dependencies:
@@ -49,9 +50,10 @@ Install dependencies:
 ```bash
 pip install fastapi openai uvicorn python-dotenv
 Create a .env file and add your API key:
+```
 ```bash
 OPENAI_API_KEY=your_openai_key_here
-
+```
 ▶️ Running the Application
 Use the following command to start the local server:
 
